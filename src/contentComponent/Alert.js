@@ -25,6 +25,7 @@ function Alert() {
       <div class="alert alert-dark" role="alert">
         Это темное уведомление — check it out!
       </div>
+      <hr></hr>
     </>
   );
 }
