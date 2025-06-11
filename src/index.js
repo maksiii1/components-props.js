@@ -6,10 +6,7 @@ import Nav from "./Nav.js";
 import Footer from "./Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
-import Alert from "./contentComponent/Alert.js";
-import Buttons from "./contentComponent/Buttons.js";
-import Card from "./contentComponent/Card.js";
-import Breadcrumb from "./contentComponent/Breadcrumb.js";
+import Content from "./Content.js";
 
 const navData = {
   title: "Новости",
@@ -28,10 +25,7 @@ function Questions() {
       />
       <Nav nav={navData} />
       <Footer footer={new Date().getFullYear()} />
-      <Alert />
-      <Buttons />
-      <Card />
-      <Breadcrumb />
+      <Content />
     </div>
   );
 }
