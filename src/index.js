@@ -4,6 +4,8 @@ import "./styles.css";
 import Header from "./Header.js";
 import Nav from "./Nav.js";
 import Footer from "./Footer.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Alert from "./contentConponent/Alert.js";
 
 const navData = {
   title: "Новости",
@@ -22,6 +24,7 @@ function Questions() {
       />
       <Nav nav={navData} />
       <Footer footer={new Date().getFullYear()} />
+      <Alert />
     </div>
   );
 }
