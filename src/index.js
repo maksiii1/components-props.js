@@ -5,6 +5,14 @@ import Header from "./Header.js";
 import Nav from "./Nav.js";
 import Footer from "./Footer.js";
 
+const navData = {
+  title: "Новости",
+  menu: "Menu",
+  faq: "FAQ",
+  date: new Date().toString(),
+  about: "About us",
+};
+
 function Questions() {
   return (
     <div className="container">
@@ -17,14 +25,6 @@ function Questions() {
     </div>
   );
 }
-
-const navData = {
-  title: "Новости",
-  menu: "Menu",
-  faq: "FAQ",
-  date: new Date().toString(),
-  about: "About us",
-};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Questions />);
