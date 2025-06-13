@@ -7,6 +7,7 @@ import Footer from "./Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Content from "./Content.js";
+import Title from "./Title.js";
 
 const navData = {
   title: "Новости",
@@ -26,6 +27,7 @@ function Questions() {
       <Nav nav={navData} />
       <Footer footer={new Date().getFullYear()} />
       <Content />
+      <Title />
     </div>
   );
 }
