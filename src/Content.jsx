@@ -1,7 +1,7 @@
-import Alert from "./contentComponent/Alert.js";
-import Buttons from "./contentComponent/Buttons.js";
-import Card from "./contentComponent/Card.js";
-import Breadcrumb from "./contentComponent/Breadcrumb.js";
+import Alert from "./contentComponent/Alert";
+import Buttons from "./contentComponent/Buttons";
+import Card from "./contentComponent/Card";
+import Breadcrumb from "./contentComponent/Breadcrumb";
 
 function Content() {
   return (
