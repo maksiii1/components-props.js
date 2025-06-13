@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./styles.css";
-import Header from "./Header.js";
-import Nav from "./Nav.js";
-import Footer from "./Footer.js";
+import Header from "./Header.jsx";
+import Nav from "./Nav.jsx";
+import Footer from "./Footer.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
-import Content from "./Content.js";
-import Title from "./Title.js";
+import Content from "./Content.jsx";
+import Title from "./Title.jsx";
 
 const navData = {
   title: "Новости",
