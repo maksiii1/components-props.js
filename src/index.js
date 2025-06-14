@@ -10,16 +10,23 @@ import Content from "./Content";
 import Title from "./createTitle/Title";
 import Input from "./Input";
 import Rating from "./Rating";
-
-const navData = {
-  title: "Новости",
-  menu: "Menu",
-  faq: "FAQ",
-  date: new Date().toString(),
-  about: "About us",
-};
+import Tags from "./Tags";
 
 function Questions() {
+  const navData = {
+    title: "Новости",
+    menu: "Menu",
+    faq: "FAQ",
+    date: new Date().toString(),
+    about: "About us",
+  };
+
+  const tags = [
+    { title: "Тег №1", href: "http://link1.ru" },
+    { title: "Тег №2", href: "http://link2.ru" },
+    { title: "Тег №3", href: "http://link3.ru" },
+  ];
+
   return (
     <div className="container">
       <Header
@@ -32,6 +39,7 @@ function Questions() {
       <Title />
       <Input />
       <Rating maxStars={5} choiceStars={3} />
+      <Tags tags={tags} />
     </div>
   );
 }
