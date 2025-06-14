@@ -1,11 +1,9 @@
-function GotTitle(props) {
-  const { text, size, color } = props;
+function GotTitle({ text, size, color }) {
+  const Tag = `h${size}`;
 
   return (
     <>
-      <div>
-        Title: {text}, Size: {size}, Color: {color}
-      </div>
+      <Tag style={{ color }}>Title: {text}</Tag>
     </>
   );
 }
