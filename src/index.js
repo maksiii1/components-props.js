@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Content from "./Content";
-import Title from "./Title";
+import Title from "./createTitle/Title";
 
 const navData = {
   title: "Новости",
