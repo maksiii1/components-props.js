@@ -8,7 +8,7 @@ function Input() {
       <input type="text" class="form-control" id="name" placeholder="Simon" />
       <br />
       <label for="password" class="form-label">
-        Name:
+        Password:
       </label>
       <br />
       <input

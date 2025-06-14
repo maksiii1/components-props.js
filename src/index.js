@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Content from "./Content";
 import Title from "./createTitle/Title";
 import Input from "./Input";
+import Rating from "./Rating";
 
 const navData = {
   title: "Новости",
@@ -30,6 +31,7 @@ function Questions() {
       <Content />
       <Title />
       <Input />
+      <Rating maxStars={5} choiceStars={3} />
     </div>
   );
 }
