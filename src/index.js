@@ -11,6 +11,7 @@ import Title from "./createTitle/Title";
 import Input from "./Input";
 import Rating from "./Rating";
 import Tags from "./Tags";
+import Links from "./Links";
 
 function Questions() {
   const navData = {
@@ -27,6 +28,12 @@ function Questions() {
     { title: "Тег №3", href: "http://link3.ru" },
   ];
 
+  const links = [
+    { title: "Новости 1", link: "http://link1.ru" },
+    { title: "Новости 2", link: "http://link2.ru" },
+    { title: "Новости 3", link: "http://link3.ru" },
+  ];
+
   return (
     <div className="container">
       <Header
@@ -40,6 +47,7 @@ function Questions() {
       <Input />
       <Rating maxStars={5} choiceStars={3} />
       <Tags tags={tags} />
+      <Links links={links} />
     </div>
   );
 }

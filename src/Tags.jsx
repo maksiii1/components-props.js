@@ -12,6 +12,7 @@ function Tags({ tags }) {
           );
         })}
       </ol>
+      <hr />
     </>
   );
 }
